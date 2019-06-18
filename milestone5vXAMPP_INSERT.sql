@@ -264,6 +264,22 @@ INSERT INTO Rents(CustomerID, EquipmentID) VALUES (004, 4);
  
 INSERT INTO Rents(CustomerID, EquipmentID) VALUES (005, 5);
 
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (005, 4);
+
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (005, 3);
+
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (005, 2);
+
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (005, 1);
+
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (001, 5);
+ 
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (002, 2);
+ 
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (003, 3);
+ 
+INSERT INTO Rents(CustomerID, EquipmentID) VALUES (004, 4);
+
 commit;
 
 INSERT INTO Provides(EmployeeID, TransportationID) VALUES (110, 111);
